@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ClickButton.cpp" />
+    <ClCompile Include="src\StageData.cpp" />
+    <ClCompile Include="src\PairImages.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Kin.cpp" />
+    <ClCompile Include="src\KinManager.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Materials.cpp" />
+    <ClCompile Include="src\MotionTween.cpp" />
+    <ClCompile Include="src\Mouse.cpp" />
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\ToolBox.cpp" />
+    <ClCompile Include="src\Sequence\Game\Clear.cpp">
+      <Filter>Sequence\GameSequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sequence\GameParent.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sequence\Title.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sequence\Parent.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sequence\HowTo.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sequence\Game\Play.cpp">
+      <Filter>Sequence\GameSequence</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ClickButton.h" />
+    <ClInclude Include="src\ColorDefinitions.h" />
+    <ClInclude Include="src\Misc.h" />
+    <ClInclude Include="src\StageData.h" />
+    <ClInclude Include="src\PairImages.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Kin.h" />
+    <ClInclude Include="src\KinManager.h" />
+    <ClInclude Include="src\Materials.h" />
+    <ClInclude Include="src\MotionTween.h" />
+    <ClInclude Include="src\Mouse.h" />
+    <ClInclude Include="src\Application.h" />
+    <ClInclude Include="src\ToolBox.h" />
+    <ClInclude Include="src\Sequence\Child.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sequence\Game\Child.h">
+      <Filter>Sequence\GameSequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sequence\Game\Clear.h">
+      <Filter>Sequence\GameSequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sequence\Title.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sequence\Parent.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sequence\HowTo.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sequence\Game\Play.h">
+      <Filter>Sequence\GameSequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sequence\GameParent.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\stage\EasyFirst.ini">
+      <Filter>StageData</Filter>
+    </None>
+    <None Include="bin\data\stage\EasySecond.ini">
+      <Filter>StageData</Filter>
+    </None>
+    <None Include="bin\data\stage\EasyThird.ini">
+      <Filter>StageData</Filter>
+    </None>
+    <None Include="bin\data\stage\HardFirst.ini">
+      <Filter>StageData</Filter>
+    </None>
+    <None Include="bin\data\stage\HardSecond.ini">
+      <Filter>StageData</Filter>
+    </None>
+    <None Include="bin\data\stage\HardThird.ini">
+      <Filter>StageData</Filter>
+    </None>
+    <None Include="bin\data\stage\KinList.ini">
+      <Filter>StageData</Filter>
+    </None>
+    <None Include="bin\data\stage\NormalThird.ini">
+      <Filter>StageData</Filter>
+    </None>
+    <None Include="bin\data\stage\NormalSecond.ini">
+      <Filter>StageData</Filter>
+    </None>
+    <None Include="bin\data\stage\NormalFirst.ini">
+      <Filter>StageData</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sequence">
+      <UniqueIdentifier>{d00e6483-af32-49a6-ac77-2639ea0dadda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\GameSequence">
+      <UniqueIdentifier>{60c2eee5-1c91-4212-b924-4dd2d07d6c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StageData">
+      <UniqueIdentifier>{e068b40b-5553-40ab-b70b-80a26002af23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
